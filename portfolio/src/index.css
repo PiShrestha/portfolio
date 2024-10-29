@@ -5,3 +5,7 @@
   font-family: "Outfit", Arial, Helvetica, sans-serif;
   /* As default, all elements will use the Outfit font. If not available, it will use Arial then Helvetica. Then use sans-serif */
 }
+
+html {
+  scroll-behavior: smooth;
+}

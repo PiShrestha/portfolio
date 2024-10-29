@@ -1,0 +1,35 @@
+[
+    {
+        "role": "Field Surveyor",
+        "organisation": "INOVA Engineering",
+        "startDate": "January 2022",
+        "endDate": "Present",
+        "experiences": [
+            "Engaged with over 100 clients on-site to clarify project requirements while conducting property surveys across 100+ sites in northern Virginia, ensuring accurate data collection and effective communication of project details.",
+            "Gained a strong understanding of the underlying mathematics involved in transforming raw data into 3D coordinates, later input into CAD software for detailed mapping and analysis."
+        ],
+        "imageSrc": "history/inovaengineering.png"
+    },
+    {
+        "role": "Digital Team Coordinator",
+        "organisation": "Walmart",
+        "startDate": "June 2022",
+        "endDate": "August 2023",
+        "experiences": [
+            "Managed scheduling and workload distribution during peak hours, maintaining wait times under 5 minutes, achieving a pick rate above 95%, and ensuring customer satisfaction rated above 4 out of 5.",
+            "Gained hands-on experience in cashiering and inventory management, maintaining a 98% accuracy rate in inventory, and achieving a customer satisfaction rate of 4.7 out of 5."
+        ],
+        "imageSrc": "history/walmart.png"
+    },
+    {
+        "role": "Sales Associate",
+        "organisation": "T.J. Maxx",
+        "startDate": "October 2021",
+        "endDate": "May 2022",
+        "experiences": [
+            "Gained hands-on experience in cashiering and inventory management, maintaining a 98% accuracy rate in inventory, and achieving a customer satisfaction rate of 4.7 out of 5.",
+            "Met daily targets by signing up 3 new credit card customers, engaging with clients to solicit feedback through surveys."
+        ],
+        "imageSrc": "history/tjmaxx.png"
+    }
+]

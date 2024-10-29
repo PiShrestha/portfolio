@@ -29,6 +29,7 @@
     rgba(255, 255, 255, 1) 70%,
     rgba(255, 255, 255, 0) 120%
   );
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -37,6 +38,7 @@
   font-size: 30px;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
+  margin-right: 5%;
 }
 
 .contactBtn {
@@ -51,7 +53,7 @@
 }
 
 .heroImg {
-  width: 50%;
+  width: 35%;
   z-index: 1;
 
   animation-name: floating;
