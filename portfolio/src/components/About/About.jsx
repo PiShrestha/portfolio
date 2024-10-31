@@ -16,21 +16,21 @@ export const About = () => {
                     <li className={styles.aboutItem}>
                         <img src={getImageUrl("about/soccer.png")} alt="Soccer" className={styles.listIcon} />
                         <div className={styles.aboutItemText}>
-                            <h3>Sports:</h3>
+                            <h3 className={styles.aboutHeading}>Sports:</h3>
                             <p>I love playing and watching sports. My favorite sport is soccer.</p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
                         <img src={getImageUrl("about/cavs.png")} alt="UVA" className={styles.listIcon} />
                         <div className={styles.aboutItemText}>
-                            <h3>Education:</h3>
+                            <h3 className={styles.aboutHeading}>Education:</h3>
                             <p>I am currently pursuing a Bachelor's degree in Computer Science at the University of Virginia.</p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
                         <img src={getImageUrl("about/stocks.png")} alt="Stocks" className={styles.listIcon} />
                         <div className={styles.aboutItemText}>
-                            <h3>Hobbies:</h3>
+                            <h3 className={styles.aboutHeading}>Hobbies:</h3>
                             <p>During my free time, I like to trade stocks and cryptocurrencies.</p>
                         </div>
                     </li>

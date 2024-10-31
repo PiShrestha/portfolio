@@ -5,8 +5,8 @@
         "startDate": "January 2022",
         "endDate": "Present",
         "experiences": [
-            "Engaged with over 100 clients on-site to clarify project requirements while conducting property surveys across 100+ sites in northern Virginia, ensuring accurate data collection and effective communication of project details.",
-            "Gained a strong understanding of the underlying mathematics involved in transforming raw data into 3D coordinates, later input into CAD software for detailed mapping and analysis."
+            "Conducted 100+ site surveys in northern Virginia, transforming raw data into 3D coordinates for CAD software mapping.",
+            "Collaborated with clients to clarify project requirements, ensuring clear communication."
         ],
         "imageSrc": "history/inovaengineering.png"
     },
@@ -16,8 +16,8 @@
         "startDate": "June 2022",
         "endDate": "August 2023",
         "experiences": [
-            "Managed scheduling and workload distribution during peak hours, maintaining wait times under 5 minutes, achieving a pick rate above 95%, and ensuring customer satisfaction rated above 4 out of 5.",
-            "Gained hands-on experience in cashiering and inventory management, maintaining a 98% accuracy rate in inventory, and achieving a customer satisfaction rate of 4.7 out of 5."
+            "Led scheduling and workload distribution, maintaining a 95%+ pick rate and <5 min wait times.",
+            "Managed cashiering and inventory, achieving a 98% accuracy rate and 4.7/5 customer satisfaction."
         ],
         "imageSrc": "history/walmart.png"
     },
@@ -27,8 +27,8 @@
         "startDate": "October 2021",
         "endDate": "May 2022",
         "experiences": [
-            "Gained hands-on experience in cashiering and inventory management, maintaining a 98% accuracy rate in inventory, and achieving a customer satisfaction rate of 4.7 out of 5.",
-            "Met daily targets by signing up 3 new credit card customers, engaging with clients to solicit feedback through surveys."
+            "Achieved 98% inventory accuracy and 4.7/5 customer satisfaction through effective cashiering and inventory management.",
+            "Signed up 3+ new credit card customers daily."
         ],
         "imageSrc": "history/tjmaxx.png"
     }

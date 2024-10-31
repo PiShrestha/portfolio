@@ -42,5 +42,9 @@
     {
         "title": "RESTful API",
         "imageSrc": "skills/restful.png"
+    },
+    {
+      "title": "SQL",
+      "imageSrc": "skills/sql.png"
     }
   ]

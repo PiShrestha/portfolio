@@ -20,7 +20,7 @@
 }
 
 .title {
-  font-size: 72px;
+  font-size: 45px;
   font-weight: 900;
   margin-bottom: 33px;
   font-family: var(--font-roboto);
@@ -36,7 +36,8 @@
 
 .description {
   font-size: 30px;
-  font-family: var(--font-roboto);
+  font-family: 'Ubuntu', serif;
+  font-weight: 10;
   margin-bottom: 52px;
   margin-right: 5%;
 }

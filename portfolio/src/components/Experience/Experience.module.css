@@ -2,119 +2,108 @@
 
 .container {
   color: var(--color-text);
-  margin-top: 79px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 8%;
+  margin-right: 8%;
 }
 
 .title {
   color: var(--color-text);
-  font-size: 35px;
+  font-size: 36px;
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  margin-bottom: 25px;
 }
 
 .content {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 14px;
-}
-
-.skills {
-  width: 45%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px 37px;
-}
-
-.skill {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 11px;
-}
-
-.skillImageContainer {
-  background-color: var(--color-secondary);
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 120px;
-  height: 120px;
-}
-
-.skillImageContainer img {
-  width: 75px;
-}
-
-.skill p {
-  font-size: 25px;
-  font-family: var(--font-roboto);
-  font-weight: 500;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 10px;
 }
 
 .history {
-  width: 45%;
+  width: 60%;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 35px;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .historyItem {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 17px;
-  background: #19376d;
-  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  background: linear-gradient(90deg, #123367 0%, rgba(1, 24, 58, 0.5) 100%);
   border-radius: 10px;
-  padding: 24px;
+  padding: 10px 40px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease-in-out;
+}
+
+.historyItem:hover {
+  transform: translateY(-5px);
 }
 
 .historyItem img {
-  width: 100px;
+  width: 75px;
+  border-radius: 10px;
 }
 
 .historyItemDetails {
   font-family: var(--font-roboto);
+  color: var(--color-text-light);
 }
 
 .historyItemDetails h3 {
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 500;
+  margin: 0;
 }
 
 .historyItemDetails p {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
+  margin: 5px 0;
 }
 
 .historyItemDetails ul {
   margin-top: 6px;
   list-style-position: inside;
-  font-size: 25px;
+  font-size: 20px;
   list-style-type: disc;
-  margin-left: 17px;
+  margin-left: 15px;
 }
+
 
 @media screen and (max-width: 830px) {
   .content {
     flex-direction: column;
     align-items: center;
-    gap: 34px;
-  }
-
-  .skills {
-    width: 100%;
-    flex-direction: row;
-    justify-content: center;
+    gap: 20px;
   }
 
   .history {
     width: 100%;
-    gap: 9px;
+    align-items: center;
+  }
+
+  .title {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .historyItemDetails h3 {
+    font-size: 24px;
+  }
+
+  .historyItemDetails p,
+  .historyItemDetails ul {
+    font-size: 18px;
   }
 }
