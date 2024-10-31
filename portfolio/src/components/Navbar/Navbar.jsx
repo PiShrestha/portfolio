@@ -1,22 +1,30 @@
 import React, { useState } from "react";
+
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 
 export const Navbar = () => {
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(false);
+
     return (
         <nav className={styles.navbar}>
             <a className={styles.title} href="/">
                 Portfolio
             </a>
             <div className={styles.menu}>
-                <img className={styles.menuBtn} src={isMenuOpen ? getImageUrl("nav/closeIcon.png")
-                    : getImageUrl("nav/menuIcon.png")}
+                <img
+                    className={styles.menuBtn}
+                    src={
+                        menuOpen
+                            ? getImageUrl("nav/closeIcon.png")
+                            : getImageUrl("nav/menuIcon.png")
+                    }
                     alt="menu-button"
-                    onClick={() => setIsMenuOpen(!isMenuOpen)}
+                    onClick={() => setMenuOpen(!menuOpen)}
                 />
-                <ul className={`${styles.menuItems} ${isMenuOpen && styles.menuOpen}`}
-                    onClick={() => setIsMenuOpen(false)}
+                <ul
+                    className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
+                    onClick={() => setMenuOpen(false)}
                 >
                     <li>
                         <a href="#about">About</a>
@@ -33,5 +41,5 @@ export const Navbar = () => {
                 </ul>
             </div>
         </nav>
-    )
-}
+  );
+};
