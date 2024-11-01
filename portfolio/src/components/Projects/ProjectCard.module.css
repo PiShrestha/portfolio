@@ -7,11 +7,18 @@
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
-  max-width: 345px;
+  width: 365px;
 }
 
 .image {
   margin-bottom: 26px;
+}
+
+.image:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+  box-shadow: 0 12px 10px 0 #194480;
 }
 
 .title {
@@ -22,7 +29,6 @@
   text-transform: uppercase; 
   letter-spacing: 1.5px; 
   text-shadow: 2px 2px 4px #bfb9b933; 
-  margin-bottom: 10px; 
   transition: color 0.3s ease, transform 0.3s ease; 
 }
 
@@ -80,4 +86,43 @@
 
 .link:hover {
   transform: translateY(-3px); /* Moves link up slightly on hover */
+}
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+}
+
+@media (max-width: 300px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .title {
+    font-size: 100%;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  .skill {
+    font-size: 16px;
+    padding: 2px 16px;
+  }
+
+  .links img {
+    width: 30px;
+  }
+
+  .link {
+    font-size: 20px;
+    padding: 2px 8px;
+  }
 }

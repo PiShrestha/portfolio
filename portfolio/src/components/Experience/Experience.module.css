@@ -183,6 +183,11 @@
 }
 
 @media (max-width: 666px) {
+
+  .container {
+    margin-top: 30px;
+  }
+
   .historyContent {
     display: flex; 
     gap: 0px; 
