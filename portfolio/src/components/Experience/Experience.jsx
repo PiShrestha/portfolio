@@ -15,13 +15,20 @@ export const Experience = () => {
               id % 2 === 0 ? styles.left : styles.right
             }`}
           >
+            <div className={styles.historyImageContainer}>
+            <img
+                src={getImageUrl(historyItem.imageSrc)}
+                className={styles.historyImage}
+                alt={`${historyItem.organisation} Logo`}
+              />  
+            </div>
             <div className={styles.historyContent}>
               <div className={styles.historyHeader}>
-                <img
-                  src={getImageUrl(historyItem.imageSrc)}
+              <img
+                src={getImageUrl(historyItem.imageSrc)}
+                className={styles.historyImageMobile}
                   alt={`${historyItem.organisation} Logo`}
-                  aria-label={`${historyItem.organisation} Logo`}
-                />
+                /> 
                 <h3>
                   <span className={styles.position}>{historyItem.role}</span>,{" "}
                   <span className={styles.company}>

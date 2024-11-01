@@ -1,6 +1,7 @@
 @import "../../vars.css";
 
 .container {
+  margin-top: 50px;
   color: var(--color-text);
   padding: 60px 8%;
 }
@@ -19,17 +20,19 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 0px;
+}
+
+.historyImageMobile {
+  display: none;
 }
 
 .timelineItem {
-  width: 45%;
+  width: calc(50% - 50px);
   display: flex;
   flex-direction: column;
-  gap: 10px;
   background: linear-gradient(90deg, #123367 0%, rgba(1, 24, 58, 0.5) 100%);
   border-radius: 10px;
-  padding: 20px;
+  padding: 25px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
   position: relative;
   transition: transform 0.3s ease-in-out;
@@ -38,26 +41,21 @@
 .timeline::before {
   content: "";
   position: absolute;
-  width: 2px;
+  width: 3px;
   height: 100%;
-  background: var(--color-text);
-  left: calc(50% - 1px);
+  background: linear-gradient(to top, rgb(13, 16, 65), rgb(23, 97, 126));
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 0;
+  top: 10px;
 }
 
-.timelineItem.left {
+/* .timelineItem.left {
   align-self: flex-start;
-}
+} */
 
 .timelineItem.right {
-  align-self: flex-end;
-}
-
-.timelineItem.left::before {
-  right: -20px; 
-}
-
-.timelineItem.right::before {
-  left: -20px;
+  align-self: end;
 }
 
 .timelineItem:hover {
@@ -73,12 +71,46 @@
   display: flex;
   align-items: center;
   gap: 15px;
+  margin-bottom: 10px;
 }
 
-.historyHeader img {
+.historyImageContainer {
+  top: 10px;
+  background-color: var(--color-secondary);
+  border-radius: 25%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.timelineItem.left .historyImageContainer {
+  right: -85px; 
+}
+
+.timelineItem.right .historyImageContainer {
+  left: -85px; 
+}
+
+
+.historyImage {
   width: 60px;
   border-radius: 10px;
+  position: absolute;
+  z-index: 1; 
 }
+
+/* .timelineItem.left .historyImage {
+  right: -70px; 
+}
+
+.timelineItem.right .historyImage {
+  left: -70px; 
+} */
 
 .historyHeader h3 {
   font-size: 24px;
@@ -93,6 +125,7 @@
 
 .historyHeader .company {
   font-weight: 400;
+  font-style: italic;
 }
 
 .historyContent p {
@@ -117,11 +150,62 @@
     margin: 0;
   }
 
-  .timeline:before {
-    left: 5%;
+  .timeline {
+    position: relative;
+    gap: 40px;
+    padding: 10px 7%;
+    box-sizing: border-box; 
+  }
+
+  .timeline::before {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to top, rgb(13, 16, 65), rgb(23, 97, 126));
+    left: -1%;
+    transform: translateX(-50%);
+    z-index: 0;
+    top: 20px;
+  }
+
+  .timelineItem.left .historyImageContainer {
+    left: -85px; 
   }
 
   .title {
     font-size: 30px;
+  }
+
+  .historyImageMobile {
+    display: none;
+  }
+}
+
+@media (max-width: 666px) {
+  .historyContent {
+    display: flex; 
+    gap: 0px; 
+    padding: 0%;
+  }
+
+  .historyImageMobile {
+    display: block;
+    width: 70px; 
+    margin-right: 10px;
+  }
+
+  .historyHeader {
+    gap: 0px;
+    padding-left: 0px;
+  }
+
+
+  .historyImageContainer {
+    display: none; 
+  }
+
+  .timeline::before {
+    display: none; 
   }
 }
