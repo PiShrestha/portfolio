@@ -10,7 +10,7 @@
     "title": "Currency Coverter",
     "imageSrc": "projects/currency.png",
     "description": "Interactive website where users can convert between currencies.",
-    "skills": ["HTML", "CSS", "JavaScript"],
+    "skills": ["HTML", "CSS", "JavaScript, API"],
     "source": "https://github.com/Jonuhthan/hoohacks2024"
   },
   {
