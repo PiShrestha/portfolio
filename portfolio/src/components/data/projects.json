@@ -10,14 +10,14 @@
     "title": "Currency Coverter",
     "imageSrc": "projects/currency.png",
     "description": "Interactive website where users can convert between currencies.",
-    "skills": ["HTML", "CSS", "JavaScript, API"],
+    "skills": ["HTML", "CSS", "JavaScript", "API"],
     "source": "https://github.com/Jonuhthan/hoohacks2024"
   },
   {
     "title": "Hangman",
     "imageSrc": "projects/hangman.png",
     "description": "This project is a fun and interactive web-based game where players can guess letters to uncover hidden phrases related to music quotes and famous sayings. ",
-    "skills": ["React", "JavaScript", "Node", "RESTful API", "CSS"],
+    "skills": ["React", "Python", "JavaScript", "Node", "RESTful API", "CSS"],
     "source": "https://github.com/PiShrestha/hangman"
   }
 ]
