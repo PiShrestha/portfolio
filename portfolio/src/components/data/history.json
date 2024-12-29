@@ -1,12 +1,24 @@
 [
     {
-        "role": "Field Surveyor",
+        "role": "Software Engineering Intern",
+        "organisation": "the ROI Portal",
+        "startDate": "January 2023",
+        "endDate": "August 2024",
+        "experiences": [
+            "Supported the development of a trade signal pipeline using scikit-learn for ROI predictions, risk–reward optimization, and trade expiry recommendations, benefiting 50+ clients.",            
+            "Assisted in creating a Python-based news bot using NLP to rank market events by impact scores, streamlining trader decision-making.",
+            "Helped implement PyTest with 80%+ coverage and tuned models using Bayesian optimization, improving system reliability and reducing downtime."
+        ],
+        "imageSrc": "history/roiportal.png"
+    },
+    {
+        "role": "Technical Project Assistant",
         "organisation": "INOVA Engineering",
         "startDate": "January 2022",
-        "endDate": "Present",
+        "endDate": "August 2024",
         "experiences": [
-            "Conducted 100+ site surveys in northern Virginia, transforming raw data into 3D coordinates for CAD software mapping.",
-            "Collaborated with clients to clarify project requirements, ensuring clear communication."
+            "Collaborated with teams to create and maintain technical documentation for complex data sets, implementing validation protocols that improved accuracy and reduced errors across 100+ projects.",
+            "Trained 2 team members on data modeling and AutoCAD, improving operational efficiency, and documented SOPs to streamline workflows and ensure collaboration."        
         ],
         "imageSrc": "history/inovaengineering.png"
     },

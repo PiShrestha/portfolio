@@ -46,5 +46,9 @@
     {
       "title": "SQL",
       "imageSrc": "skills/sql.png"
+    },
+    {
+      "title": "IT Support",
+      "imageSrc": "skills/google.png"
     }
   ]

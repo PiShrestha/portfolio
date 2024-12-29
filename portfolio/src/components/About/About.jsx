@@ -17,7 +17,7 @@ export const About = () => {
                         <img src={getImageUrl("about/soccer.png")} alt="Soccer" className={styles.listIcon} />
                         <div className={styles.aboutItemText}>
                             <h3 className={styles.aboutHeading}>Sports:</h3>
-                            <p>I love playing and watching sports. My favorite sport is soccer.</p>
+                            <p>I love playing and watching sports.</p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
@@ -31,7 +31,7 @@ export const About = () => {
                         <img src={getImageUrl("about/stocks.png")} alt="Stocks" className={styles.listIcon} />
                         <div className={styles.aboutItemText}>
                             <h3 className={styles.aboutHeading}>Hobbies:</h3>
-                            <p>During my free time, I like to trade stocks and cryptocurrencies.</p>
+                            <p>During my free time, I like to trade stocks and cryptocurrencies and watch movies.</p>
                         </div>
                     </li>
                 </ul>
