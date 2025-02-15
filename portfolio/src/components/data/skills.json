@@ -20,24 +20,16 @@
       "imageSrc": "skills/css.png"
     },
     {
-      "title": "React",
+      "title": "ReactJS",
       "imageSrc": "skills/react.png"
     },
     {
-      "title": "Node",
+      "title": "NodeJS",
       "imageSrc": "skills/node.png"
-    },
-    {
-      "title": "AWS",
-      "imageSrc": "skills/aws.png"
     },
     {
       "title": "Flask",
       "imageSrc": "skills/flask.png"
-    },
-    {
-      "title": "Figma",
-      "imageSrc": "skills/figma.png"
     },
     {
         "title": "RESTful API",
@@ -50,5 +42,13 @@
     {
       "title": "IT Support",
       "imageSrc": "skills/google.png"
+    },
+    {
+      "title": "AWS Cloud Practitioner",
+      "imageSrc": "skills/AWSCP.png"
+    },
+    {
+      "title": "Django",
+      "imageSrc": "skills/django.png"
     }
   ]
