@@ -3,21 +3,28 @@
     "title": "Programmable",
     "imageSrc": "projects/programmable.png",
     "description": "This project is a web app designed for aspiring Computer Science students to practice and strengthen their coding skills.",
-    "skills": ["React", "Firebase", "Node", "Flask", "Python", "JavaScript"],
+    "skills": ["React.js", "Firebase", "Flask", "JavaScript"],
     "source": "https://github.com/PiShrestha/programmable"
   },
   {
     "title": "Currency Coverter",
     "imageSrc": "projects/currency.png",
     "description": "Interactive website where users can convert between currencies.",
-    "skills": ["HTML", "CSS", "JavaScript", "API"],
+    "skills": ["HTML", "CSS", "JavaScript", "RESTful API"],
     "source": "https://github.com/Jonuhthan/hoohacks2024"
   },
   {
     "title": "Hangman",
     "imageSrc": "projects/hangman.png",
-    "description": "This project is a fun and interactive web-based game where players can guess letters to uncover hidden phrases related to music quotes and famous sayings. ",
-    "skills": ["React", "Python", "JavaScript", "Node", "RESTful API", "CSS"],
+    "description": "A fun and interactive web-based game where players can guess letters to uncover hidden phrases.",
+    "skills": ["React.js", "Python", "JavaScript", "Node", "RESTful API", "CSS"],
     "source": "https://github.com/PiShrestha/hangman"
+  },
+  {
+    "title": "WahooWheels",
+    "imageSrc": "projects/wahoowheels.png",
+    "description": "A platform that helps students easily share rides on campus, reducing travel costs and environmental impact.",
+    "skills": ["MapBox", "React.js", "JavaScript", "Django", "RESTful API", "Bootstrap"],
+    "source": "https://github.com/PiShrestha/wahoowheels"
   }
 ]
