@@ -1,10 +1,12 @@
 @import "../../vars.css";
 
 .container {
+  padding-top: 40px;
   color: var(--color-text);
-  margin-top: 60px;
-  margin-left: 4%;
-  margin-right: 4%;
+  scroll-margin-top: 50px; /* when clicked on navbar: top offset */
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 25px;
 }
 
 .title {

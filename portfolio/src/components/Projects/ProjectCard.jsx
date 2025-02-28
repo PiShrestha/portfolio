@@ -31,7 +31,8 @@ export const ProjectCard = ({
         <a href={source}>
             <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
         </a>
-        <a href={source} className={styles.link}>
+        { /* target="_blank" tells the browser to open the link in a new tab */}
+        <a href={source} target="_blank" rel="noopener noreferrer" className={styles.link}>
           Source
         </a>
 

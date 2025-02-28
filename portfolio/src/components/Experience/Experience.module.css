@@ -3,6 +3,7 @@
 .container {
   margin-top: 50px;
   color: var(--color-text);
+  scroll-margin-top: 50px; /* when clicked on navbar: top offset */
   padding: 60px 8%;
 }
 

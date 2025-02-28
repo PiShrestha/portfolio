@@ -2,7 +2,7 @@
   {
     "title": "Programmable",
     "imageSrc": "projects/programmable.png",
-    "description": "This project is a web app designed for aspiring Computer Science students to practice and strengthen their coding skills.",
+    "description": "A web app designed for aspiring Computer Science students to practice and strengthen their coding skills.",
     "skills": ["React.js", "Firebase", "Flask", "JavaScript"],
     "source": "https://github.com/PiShrestha/programmable"
   },
@@ -17,7 +17,7 @@
     "title": "Hangman",
     "imageSrc": "projects/hangman.png",
     "description": "A fun and interactive web-based game where players can guess letters to uncover hidden phrases.",
-    "skills": ["React.js", "Python", "JavaScript", "Node", "RESTful API", "CSS"],
+    "skills": ["React.js", "Node.js", "RESTful API", "CSS"],
     "source": "https://github.com/PiShrestha/hangman"
   },
   {

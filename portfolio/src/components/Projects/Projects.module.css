@@ -2,6 +2,7 @@
 
 .container {
   padding-top: 40px;
+  scroll-margin-top: 50px; /* when clicked on navbar: top offset */
   margin-top: 50px;
   color: var(--color-text);
   margin-left: 10%;
@@ -10,6 +11,7 @@
 }
 
 .title {
+  padding-left: 50px;
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 1.75px;

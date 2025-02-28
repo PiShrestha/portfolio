@@ -12,13 +12,13 @@ export const Contact = () => {
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
-          <a href="mailto:pratikshr3stha@email.com">
+          <a href="mailto:pratikshr3stha@email.com" target="_blank" rel="noopener noreferrer">
             <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
             <span className={styles.linkText}>Email</span>
           </a>
         </li>
         <li className={styles.link}>
-          <a href="https://www.linkedin.com/in/pishrestha">
+          <a href="https://www.linkedin.com/in/pishrestha" target="_blank" rel="noopener noreferrer">
             <img
               src={getImageUrl("contact/linkedinIcon.png")}
               alt="LinkedIn icon"
@@ -27,7 +27,7 @@ export const Contact = () => {
           </a>
         </li>
         <li className={styles.link}>
-          <a href="https://www.github.com/PiShrestha">
+          <a href="https://www.github.com/PiShrestha" target="_blank" rel="noopener noreferrer">
             <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
             <span className={styles.linkText}>GitHub</span>
           </a>
