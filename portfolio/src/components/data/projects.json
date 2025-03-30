@@ -26,5 +26,12 @@
     "description": "A platform that helps students easily share rides on campus, reducing travel costs and environmental impact.",
     "skills": ["MapBox", "React.js", "JavaScript", "Django", "RESTful API", "Bootstrap"],
     "source": "https://github.com/PiShrestha/wahoowheels"
+  },  
+  {
+    "title": "Routify",
+    "imageSrc": "projects/routify.png",
+    "description": "Visualize your class schedule on a map to plan smarter routes across campus.",
+    "skills": ["React.js", "Django", "Mapbox", "PostgreSQL", "AWS (EC2, S3, RDS)"],
+    "source": "https://github.com/kyle-luong/routify"
   }
 ]
