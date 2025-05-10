@@ -8,8 +8,8 @@ export const Hero = () => {
             <div className={styles.content}>
                 <h1 className = {styles.title}>Hi, I'm Pratik</h1>
                 <p className = {styles.description}>
-                    I’m a second-year Computer Science student at UVA with a strong STEM background. 
-                    I’m excited to bring my tech passion and hands-on experience into a new role!
+                I'm Pratik, a student, programmer, and aspiring mathematician pursuing a degree in Computer Science and Mathematics at the University of Virginia. 
+                I enjoy building side projects and exploring a broad range of fields, including machine learning, algorithmic trading, cryptography, and pure mathematics.
                 </p>
                 <a href="mailto:pratikshr3stha@gmail.com" className = {styles.contactBtn}> Contact Me </a>
             </div>

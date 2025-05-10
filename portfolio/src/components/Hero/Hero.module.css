@@ -35,9 +35,9 @@
 }
 
 .description {
-  font-size: 30px;
+  font-size: 22px;
+  line-height: 1.4;
   font-family: 'Ubuntu', serif;
-  font-weight: 10;
   margin-bottom: 52px;
   margin-right: 5%;
 }
@@ -54,7 +54,7 @@
 }
 
 .heroImg {
-  width: 75%;
+  width: 250px;
   z-index: 1;
   margin-bottom: 5%;
 

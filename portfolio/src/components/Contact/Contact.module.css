@@ -2,7 +2,7 @@
 
 .container {
   color: var(--color-text);
-  margin-top: 120px;
+  margin-top: 60px;
   background-color: var(--color-secondary);
   display: flex;
   flex-direction: row;
@@ -12,7 +12,7 @@
 }
 
 .text h2 {
-  font-size: 80px;
+  font-size: 50px;
   font-weight: 700;
   letter-spacing: 4px;
 }
@@ -28,21 +28,21 @@
   flex-direction: column;
   align-items: flex-start;
   list-style: none;
-  gap: 26px;
+  gap: 15px;
 }
 
 .link {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 15px;
   padding: 10px;
   transition: background-color 0.3s ease-in-out;
 }
 
 .linkText {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 400;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.4px;
   margin-left: 8px;
 }
 
@@ -63,7 +63,7 @@
 
 .link img {
   transition: transform 0.3s ease-in-out;
-  width: 50px;
+  width: 30px;
 }
 
 .link:hover img {
