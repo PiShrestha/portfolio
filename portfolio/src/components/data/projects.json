@@ -7,20 +7,6 @@
     "source": "https://github.com/PiShrestha/programmable"
   },
   {
-    "title": "Currency Coverter",
-    "imageSrc": "projects/currency.png",
-    "description": "Interactive website where users can convert between currencies.",
-    "skills": ["HTML", "CSS", "JavaScript", "RESTful API"],
-    "source": "https://github.com/Jonuhthan/hoohacks2024"
-  },
-  {
-    "title": "Hangman",
-    "imageSrc": "projects/hangman.png",
-    "description": "A fun and interactive web-based game where players can guess letters to uncover hidden phrases.",
-    "skills": ["React.js", "Node.js", "RESTful API", "CSS"],
-    "source": "https://github.com/PiShrestha/hangman"
-  },
-  {
     "title": "WahooWheels",
     "imageSrc": "projects/wahoowheels.png",
     "description": "A platform that helps students easily share rides on campus, reducing travel costs and environmental impact.",
@@ -33,5 +19,19 @@
     "description": "Visualize your class schedule on a map to plan smarter routes across campus.",
     "skills": ["React.js", "Django", "Mapbox", "PostgreSQL", "AWS (EC2, S3, RDS)"],
     "source": "https://github.com/kyle-luong/routify"
+  },
+  {
+    "title": "Currency Coverter",
+    "imageSrc": "projects/currency.png",
+    "description": "Interactive website where users can convert between currencies.",
+    "skills": ["HTML", "CSS", "JavaScript", "RESTful API"],
+    "source": "https://github.com/Jonuhthan/hoohacks2024"
+  },
+  {
+    "title": "Hangman",
+    "imageSrc": "projects/hangman.png",
+    "description": "A fun and interactive web-based game where players can guess letters to uncover hidden phrases.",
+    "skills": ["React.js", "Node.js", "RESTful API", "CSS"],
+    "source": "https://github.com/PiShrestha/hangman"
   }
 ]

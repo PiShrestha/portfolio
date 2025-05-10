@@ -10,13 +10,25 @@
 }
 
 .title {
-  padding-left: 50px;
-  color: var(--color-text);
-  font-size: 36px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
-  text-transform: uppercase;
-  margin-bottom: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #E6E6F0;
+  margin-bottom: 40px;
+  border-bottom: 3px solid #4FD1C5;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.certLinkBtn {
+  display: inline-flex;
+  align-items: center;
+  color: inherit;
+  padding-left: 8px; /* Adjust the value as needed */
+  text-decoration: none;
+  transition: color 0.2s;
 }
 
 .skills {
@@ -63,8 +75,8 @@
 }
 
 .skill p {
-  font-size: 24px;
-  font-family: var(--font-roboto);
+  font-size: 20px;
+  font-family: 'Poppins', 'Inter', 'Montserrat', Arial, sans-serif;
   font-weight: 500;
   color: var(--color-text-light);
 } 

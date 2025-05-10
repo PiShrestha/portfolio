@@ -1,11 +1,17 @@
 [
     {
+      "title": "AWS CCP",
+      "imageSrc": "skills/AWSCP.png",
+      "certificationUrl": "https://www.credly.com/badges/d39bc542-8dd7-4635-ab2b-83c72fe4c85b/linked_in_profile"
+    },
+    {
         "title": "Java",
         "imageSrc": "skills/java.png"
     },
     {
         "title": "JavaScript",
-        "imageSrc": "skills/javascript.png"
+        "imageSrc": "skills/javascript.png",
+        "certificationUrl": "https://drive.google.com/file/d/1BAMRSbmiJvWBHJaPQUi0KpDQCISXJ6J4/view?usp=sharing"
     },
     {
         "title": "Python",
@@ -13,11 +19,17 @@
     },
     {
       "title": "HTML",
-      "imageSrc": "skills/html.png"
+      "imageSrc": "skills/html.png",
+      "certificationUrl": "https://drive.google.com/file/d/1BAMRSbmiJvWBHJaPQUi0KpDQCISXJ6J4/view?usp=sharing"
     },
     {
       "title": "CSS",
-      "imageSrc": "skills/css.png"
+      "imageSrc": "skills/css.png",
+      "certificationUrl": "https://drive.google.com/file/d/1BAMRSbmiJvWBHJaPQUi0KpDQCISXJ6J4/view?usp=sharing"
+    },
+    {
+      "title": "Django",
+      "imageSrc": "skills/django.png"
     },
     {
       "title": "ReactJS",
@@ -41,14 +53,11 @@
     },
     {
       "title": "IT Support",
-      "imageSrc": "skills/google.png"
+      "imageSrc": "skills/google.png",
+      "certificationUrl": "https://www.coursera.org/account/accomplishments/verify/1U8GLPNV1Z5A"
     },
     {
-      "title": "AWS Cloud Practitioner",
-      "imageSrc": "skills/AWSCP.png"
-    },
-    {
-      "title": "Django",
-      "imageSrc": "skills/django.png"
+      "title": "Heroku",
+      "imageSrc": "skills/heroku.png"
     }
   ]

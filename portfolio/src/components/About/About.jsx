@@ -17,14 +17,14 @@ export const About = () => {
                         <img src={getImageUrl("about/soccer.png")} alt="Soccer" className={styles.listIcon} />
                         <div className={styles.aboutItemText}>
                             <h3 className={styles.aboutHeading}>Sports:</h3>
-                            <p>I love playing and watching sports.</p>
+                            <p>I like playing and watching Soccer, Pickle Ball and sports in general.</p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
                         <img src={getImageUrl("about/cavs.png")} alt="UVA" className={styles.listIcon} />
                         <div className={styles.aboutItemText}>
                             <h3 className={styles.aboutHeading}>Education:</h3>
-                            <p>I am currently pursuing a Bachelor's degree in Computer Science at the University of Virginia.</p>
+                            <p>I am currently pursuing a Bachelor's degree in Computer Science and Mathematics at the University of Virginia.</p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>

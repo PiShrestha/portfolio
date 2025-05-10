@@ -29,14 +29,27 @@ export const Experience = () => {
                 className={styles.historyImageMobile}
                   alt={`${historyItem.organisation} Logo`}
                 /> 
-                <h3>
-                  <span className={styles.position}>{historyItem.role}</span>,{" "}
-                  <span className={styles.company}>
-                    {historyItem.organisation}
-                  </span>
-                </h3>
+              <h3>
+                <span className={styles.position}>{historyItem.role}</span>
+                {" "}
+                <span style={{ fontWeight: 400, fontStyle: "normal" }}>@</span>
+                {" "}
+                <span className={styles.company}>{historyItem.organisation}</span>
+              </h3>
               </div>
-              <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
+              <p className={styles.date}>
+                <span style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}>
+                  <img
+                    src={"../../../assets/history/date.png"}
+                    alt="Calendar"
+                    width={18}
+                    height={18}
+                    style={{ marginRight: "4px", verticalAlign: "middle" }}
+                  />
+                  {`${historyItem.startDate} - ${historyItem.endDate}`}
+                </span>
+              </p>
+              {/* <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p> */}
               <ul>
                 {historyItem.experiences.map((experience, expId) => (
                   <li key={`${id}-${expId}`}>{experience}</li>

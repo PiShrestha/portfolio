@@ -1,5 +1,4 @@
 import React from "react";
-
 import styles from "./ProjectCard.module.css";
 import { getImageUrl } from "../../utils";
 
@@ -13,29 +12,37 @@ export const ProjectCard = ({
         alt={`Image of ${title}`}
         className={styles.image}
       />
-      <h3 className={styles.title}>{title}</h3>
-      <p className={styles.description}>{description}</p>
-      <ul className={styles.skills}>
-        {skills.map((skill, id) => {
-          return (
-            <li key={id} className={styles.skill}>
+      <div className={styles.content}>
+        <h3 className={styles.title}>{title}</h3>
+
+        <ul className={styles.skills}>
+          {skills.map((skill, idx) => (
+            <li key={idx} className={styles.skill}>
               {skill}
             </li>
-          );
-        })}
-      </ul>
-      <div className={styles.links}>
-        {/* <a href={demo} className={styles.link}>
-          Demo
-        </a> */}
-        <a href={source}>
-            <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-        </a>
-        { /* target="_blank" tells the browser to open the link in a new tab */}
-        <a href={source} target="_blank" rel="noopener noreferrer" className={styles.link}>
-          Source
-        </a>
+          ))}
+        </ul>
 
+        <p className={styles.description}>{description}</p>
+
+        <div className={styles.links}>
+          {/* GitHub icon only */}
+          <a href={source} target="_blank" rel="noopener noreferrer">
+            <img
+              src={getImageUrl("contact/githubIcon.png")}
+              alt="GitHub icon"
+            />
+          </a>
+          {/* Source link */}
+          <a
+            href={source}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.link}
+          >
+            Source
+          </a>
+        </div>
       </div>
     </div>
   );

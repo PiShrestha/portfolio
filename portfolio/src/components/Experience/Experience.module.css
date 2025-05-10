@@ -8,13 +8,16 @@
 }
 
 .title {
-  color: var(--color-text);
-  font-size: 36px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
-  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
   text-align: center;
+  color: #E6E6F0;
   margin-bottom: 40px;
+  border-bottom: 3px solid #4FD1C5;
+  display: inline-block;
+  padding-bottom: 10px;
 }
 
 .timeline {
@@ -31,32 +34,36 @@
   width: calc(50% - 50px);
   display: flex;
   flex-direction: column;
-  background: linear-gradient(90deg, #123367 0%, rgba(1, 24, 58, 0.5) 100%);
+  background: rgba(30, 39, 70, 0.95);
   border-radius: 10px;
   padding: 25px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
   position: relative;
-  transition: transform 0.3s ease-in-out;
+  transition: box-shadow 0.2s, transform 0.2s;
+  margin-bottom: 0;
 }
 
 .timeline::before {
   content: "";
   position: absolute;
-  width: 3px;
+  width: 4px;
   height: 100%;
-  background: linear-gradient(to top, rgb(13, 16, 65), rgb(23, 97, 126));
+  background: linear-gradient(to top, #1e2746 0%, #3fa7ff 100%);
   left: 50%;
   transform: translateX(-50%);
   z-index: 0;
-  top: 10px;
+  border-radius: 2px;
+  opacity: 0.18;
 }
 
-/* .timelineItem.left {
+.timelineItem.left {
   align-self: flex-start;
-} */
+  margin-right: auto;
+}
 
 .timelineItem.right {
-  align-self: end;
+  align-self: flex-end;
+  margin-left: auto;
 }
 
 .timelineItem:hover {
@@ -113,9 +120,17 @@
   left: -70px; 
 } */
 
+.historyHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
 .historyHeader h3 {
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 21px;
+  font-weight: 600;
   color: var(--color-text-light);
   margin: 0;
 }
@@ -127,21 +142,28 @@
 .historyHeader .company {
   font-weight: 400;
   font-style: italic;
+  color:#0ad6f1;
 }
 
 .historyContent p {
-  font-size: 16px;
-  font-weight: 300;
+  font-size: 17px;
+  font-weight: 400;
   color: var(--color-text-light);
+  margin: 0 0 8px 0;
 }
 
 .historyContent ul {
-  margin-top: 10px;
-  list-style-position: inside;
+  margin: 0;
+  padding-left: 18px;
   font-size: 18px;
-  list-style-type: disc;
-  padding-left: 20px;
+  color: var(--color-text);
 }
+
+.historyContent ul li {
+  margin-bottom: 10px;     /* adds space between lines */
+  line-height: 1.5;        /* increases line spacing */
+}
+
 
 @media screen and (max-width: 830px) {
   .timelineItem,

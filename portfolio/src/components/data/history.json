@@ -1,15 +1,13 @@
 [
     {
-        "role": "Software Engineering Intern",
-        "organisation": "the ROI Portal",
-        "startDate": "January 2023",
-        "endDate": "August 2024",
+        "role": "Undergraduate Intern Tech",
+        "organisation": "VeriSign",
+        "startDate": "May 2025",
+        "endDate": "August 2025",
         "experiences": [
-            "Supported the development of a trade signal pipeline using scikit-learn for ROI predictions, risk–reward optimization, and trade expiry recommendations, benefiting 50+ clients.",            
-            "Assisted in creating a Python-based news bot using NLP to rank market events by impact scores, streamlining trader decision-making.",
-            "Helped implement PyTest with 80%+ coverage and tuned models using Bayesian optimization, improving system reliability and reducing downtime."
+            "Distributed Big Data Platform using Apache Spark and Java."
         ],
-        "imageSrc": "history/roiportal.png"
+        "imageSrc": "history/verisign.png"
     },
     {
         "role": "Technical Project Assistant",
@@ -21,6 +19,18 @@
             "Trained 2 team members on data modeling and AutoCAD, improving operational efficiency, and documented SOPs to streamline workflows and ensure collaboration."        
         ],
         "imageSrc": "history/inovaengineering.png"
+    },
+    {
+        "role": "Software Engineering Intern",
+        "organisation": "the ROI Portal",
+        "startDate": "January 2023",
+        "endDate": "August 2024",
+        "experiences": [
+            "Supported the development of a trade signal pipeline using scikit-learn for ROI predictions, risk–reward optimization, and trade expiry recommendations, benefiting 50+ clients.",            
+            "Assisted in creating a Python-based news bot using NLP to rank market events by impact scores, streamlining trader decision-making.",
+            "Helped implement PyTest with 80%+ coverage and tuned models using Bayesian optimization, improving system reliability and reducing downtime."
+        ],
+        "imageSrc": "history/roi.png"
     },
     {
         "role": "Digital Team Coordinator",
