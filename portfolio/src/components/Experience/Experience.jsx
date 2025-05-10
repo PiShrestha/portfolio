@@ -40,7 +40,7 @@ export const Experience = () => {
               <p className={styles.date}>
                 <span style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}>
                   <img
-                    src={"../../../assets/history/date.png"}
+                    src={getImageUrl("history/date.png")}
                     alt="Calendar"
                     width={18}
                     height={18}

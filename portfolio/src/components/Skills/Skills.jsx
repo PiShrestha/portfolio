@@ -28,7 +28,7 @@ export const Skills = () => {
                   aria-label={`View ${skill.title} certification`}
                 >
                   <img
-                    src={"../../../assets/skills/export.png"}
+                    src={getImageUrl("skills/export.png")}
                     alt="External link"
                     width={16}
                     height={16}
