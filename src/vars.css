@@ -1,40 +1,79 @@
-:root {
+:root,
+[data-theme="dark"] {
     /* Background colors - warm charcoal tones */
     --color-bg: #1a1a1f;
     --color-bg-elevated: #232329;
     --color-bg-card: rgba(40, 40, 48, 0.85);
-    
+
     /* Primary colors - warm amber/gold accents */
     --color-primary: #d4a574;
     --color-primary-hover: #e5b885;
     --color-secondary: #2d2d35;
     --color-dark: #16161a;
-    
+
     /* Text colors */
     --color-text: #f0ece8;
     --color-text-muted: #9a968f;
     --color-text-accent: #d4a574;
     --color-text-light: #e0dcd6;
-    
+
     /* Accent - subtle warm highlight */
     --color-accent: #d4a574;
     --color-accent-muted: rgba(212, 165, 116, 0.3);
     --color-accent-subtle: rgba(212, 165, 116, 0.15);
-    
+
     /* Section backgrounds */
     --color-section-alt: rgba(35, 35, 41, 0.6);
-    
+
+    /* Hero image styling */
+    --hero-img-filter: brightness(0.95) contrast(0.95) saturate(0.9);
+    --hero-img-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    --hero-vignette: radial-gradient(circle, transparent 50%, rgba(26, 26, 31, 0.8) 100%);
+
     /* Fonts */
     --font-primary: "Outfit", sans-serif;
     --font-heading: "Poppins", sans-serif;
     --font-body: "Inter", sans-serif;
     --font-roboto: "Roboto", sans-serif;
-    
+
     /* Spacing */
     --section-padding: 80px;
     --container-margin: 10%;
-    
+
     /* Transitions */
     --transition-fast: 0.2s ease;
     --transition-smooth: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Light Theme - Warm and subtle */
+[data-theme="light"] {
+    /* Background colors - warm cream tones */
+    --color-bg: #f8f6f3;
+    --color-bg-elevated: #fffefa;
+    --color-bg-card: rgba(255, 252, 248, 0.95);
+
+    /* Primary colors */
+    --color-primary: #b8895a;
+    --color-primary-hover: #a67a4d;
+    --color-secondary: #f0ede8;
+    --color-dark: #1a1a1f;
+
+    /* Text colors */
+    --color-text: #2d2a26;
+    --color-text-muted: #6b6560;
+    --color-text-accent: #9a7448;
+    --color-text-light: #3d3a36;
+
+    /* Accent */
+    --color-accent: #b8895a;
+    --color-accent-muted: rgba(184, 137, 90, 0.25);
+    --color-accent-subtle: rgba(184, 137, 90, 0.1);
+
+    /* Section backgrounds */
+    --color-section-alt: rgba(240, 237, 232, 0.8);
+
+    /* Hero image styling - clean, no vignette */
+    --hero-img-filter: brightness(1) contrast(1);
+    --hero-img-shadow: 0 8px 24px rgba(45, 42, 38, 0.15);
+    --hero-vignette: none;
 }

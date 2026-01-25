@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Interstellar",
+        "poster": "movies/interstellar.png",
+        "reason": "nolan's masterpiece",
+        "rating": 10
+    },
+    {
+        "title": "The Social Network",
+        "poster": "movies/socialnetwork.png",
+        "reason": "really good startup storytelling.",
+        "rating": 9
+    },
+    {
+        "title": "Shutter Island",
+        "poster": "movies/shutterisland.png",
+        "reason": "insane cliffhanger ending",
+        "rating": 9
+    }
+]

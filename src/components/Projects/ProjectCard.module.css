@@ -70,10 +70,11 @@
 .skill {
   font-size: 12px;
   font-weight: 500;
-  color: var(--color-text-muted);
+  color: var(--color-text-light);
   background: var(--color-accent-subtle);
   padding: 4px 10px;
   border-radius: 100px;
+  border: 1px solid var(--color-accent-muted);
 }
 
 .description {

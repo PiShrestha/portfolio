@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Newton's Method",
+        "image": "finds/newtons.png",
+        "description": "A gentle introduction to root finding and its applications in optimization.",
+        "date": "2024-01-15",
+        "link": ""
+    },
+    {
+        "title": "All Computable Functions are Continuous",
+        "image": "finds/computable.png",
+        "description": "When the continuous and discrete cross, fireworks appear.",
+        "date": "2024-02-20",
+        "link": ""
+    },
+    {
+        "title": "Optimal Polynomial Approximation",
+        "image": "finds/polynomial.png",
+        "description": "An introduction to linear algebra and least squares on functions.",
+        "date": "2024-03-10",
+        "link": ""
+    }
+]

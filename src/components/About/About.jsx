@@ -5,10 +5,6 @@ export const About = () => {
     <section className={styles.container} id="about">
       <h2 className={styles.title}>At a Glance</h2>
       <div className={styles.statsGrid}>
-        {/* <div className={styles.stat}>
-          <span className={styles.number}>3.91</span>
-          <span className={styles.label}>GPA</span>
-        </div> */}
         <div className={styles.stat}>
           <span className={styles.number}>400M+</span>
           <span className={styles.label}>Records Processed Weekly</span>
@@ -23,10 +19,6 @@ export const About = () => {
         </div>
       </div>
       <div className={styles.highlights}>
-        {/* <div className={styles.highlight}>
-          <span className={styles.highlightLabel}>Organizations</span>
-          <span className={styles.highlightValue}>Trigon Engineering Society · ML@UVA</span>
-        </div> */}
         <div className={styles.highlight}>
           <span className={styles.highlightLabel}>Focus Areas</span>
           <span className={styles.highlightValue}>System Design · Data Engineering · Fintech</span>

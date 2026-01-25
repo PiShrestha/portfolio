@@ -56,33 +56,29 @@
   padding: 14px 28px;
   font-family: var(--font-heading);
   transition: var(--transition-smooth);
-  box-shadow: 0 4px 15px rgba(212, 165, 116, 0.3);
+  box-shadow: 0 4px 15px var(--color-accent-muted);
 }
 
 .contactBtn:hover {
   background-color: var(--color-primary-hover);
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(212, 165, 116, 0.4);
+  box-shadow: 0 6px 20px var(--color-accent-muted);
 }
 
-/* Profile photo container with soft vignette */
+/* Profile photo container - theme-aware */
 .heroImgContainer {
   position: relative;
   display: inline-block;
   border-radius: 50%;
 }
 
-/* Soft vignette overlay that blends into background */
+/* Vignette overlay - uses CSS variable for theme awareness */
 .heroImgContainer::before {
   content: "";
   position: absolute;
   inset: -25px;
   border-radius: 50%;
-  background: radial-gradient(circle,
-      rgba(26, 26, 31, 0) 40%,
-      rgba(26, 26, 31, 0.5) 65%,
-      rgba(26, 26, 31, 0.85) 85%,
-      rgba(26, 26, 31, 1) 100%);
+  background: var(--hero-vignette);
   z-index: 2;
   pointer-events: none;
 }
@@ -94,18 +90,19 @@
   inset: 20px;
   border-radius: 50%;
   background: radial-gradient(circle,
-      rgba(212, 165, 116, 0.15) 0%,
+      var(--color-accent-muted) 0%,
       transparent 70%);
   z-index: 0;
   filter: blur(20px);
 }
 
-/* Softened profile image */
+/* Profile image - uses theme-aware filter */
 .heroImg {
   width: 280px;
   z-index: 1;
   border-radius: 50%;
-  filter: brightness(0.82) contrast(0.92) saturate(0.88);
+  filter: var(--hero-img-filter);
+  box-shadow: var(--hero-img-shadow);
   position: relative;
   animation-name: floating;
   animation-duration: 4s;
@@ -125,7 +122,7 @@
   }
 }
 
-/* Subtle background blurs - warmer tones */
+/* Subtle background blurs */
 .topBlur {
   position: absolute;
   width: 45vw;
@@ -134,7 +131,7 @@
   top: -100px;
   left: -8vw;
   border-radius: 50%;
-  background: rgba(212, 165, 116, 0.08);
+  background: var(--color-accent-subtle);
   filter: blur(100px);
   z-index: 0;
 }
@@ -147,7 +144,7 @@
   min-width: 200px;
   top: 200px;
   border-radius: 50%;
-  background: rgba(45, 45, 53, 0.5);
+  background: var(--color-section-alt);
   filter: blur(100px);
   z-index: 0;
 }
