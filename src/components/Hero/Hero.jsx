@@ -6,9 +6,9 @@ export const Hero = () => {
     <section className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Pratik</h1>
-        <p className={styles.tagline}>CS + Math @ UVA</p>
+        <p className={styles.tagline}>Software Engineer · CS + Math @ UVA</p>
         <p className={styles.description}>
-          Building at the intersection of ML, trading systems, and cryptography.
+          I build data systems that scale.
         </p>
         <a href="mailto:pratikshr3stha@gmail.com" className={styles.contactBtn}>
           Get in Touch

@@ -5,16 +5,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 40px;
-  z-index: 10;
-  margin: 0 var(--container-margin);
+  padding: 32px var(--container-margin);
+  z-index: 100;
 }
 
 .title {
   font-family: var(--font-heading);
-  font-size: 28px;
-  font-weight: 700;
-  letter-spacing: -0.5px;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
   text-decoration: none;
   color: var(--color-text);
   transition: var(--transition-fast);
@@ -24,26 +23,21 @@
   color: var(--color-accent);
 }
 
-.menuBtn {
-  display: none;
-}
-
-.menu {
-  display: flex;
-}
-
+/* Desktop Menu */
 .menuItems {
   display: flex;
-  gap: 36px;
+  gap: 32px;
   list-style: none;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .menuItems a {
   font-family: var(--font-heading);
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.2px;
   color: var(--color-text-muted);
   text-decoration: none;
   transition: var(--transition-fast);
@@ -54,7 +48,6 @@
   color: var(--color-text);
 }
 
-/* Subtle underline on hover */
 .menuItems a::after {
   content: "";
   position: absolute;
@@ -70,52 +63,104 @@
   width: 100%;
 }
 
+/* Resume link */
+.resumeLink {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
 .externalIcon {
   width: 14px;
   height: 14px;
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 6px;
-  opacity: 0.7;
+  opacity: 0.6;
   transition: var(--transition-fast);
 }
 
-.menuItems a:hover .externalIcon {
+.resumeLink:hover .externalIcon {
   opacity: 1;
 }
 
-@media screen and (max-width: 830px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-    padding-top: 24px;
-  }
+/* Hamburger Button */
+.menuBtn {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  z-index: 101;
+}
 
-  .menu {
-    position: absolute;
-    right: 0;
-    margin-right: var(--container-margin);
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 11px;
-    z-index: 3;
+.hamburger {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--color-text);
+  position: relative;
+  transition: var(--transition-smooth);
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 2px;
+  background: var(--color-text);
+  left: 0;
+  transition: var(--transition-smooth);
+}
+
+.hamburger::before {
+  top: -7px;
+}
+
+.hamburger::after {
+  top: 7px;
+}
+
+/* Hamburger open state */
+.hamburger.open {
+  background: transparent;
+}
+
+.hamburger.open::before {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.hamburger.open::after {
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 20px 5%;
   }
 
   .menuBtn {
     display: block;
-    cursor: pointer;
   }
 
   .menuItems {
     display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 16px;
-    border-radius: 12px;
-    background: var(--color-bg-elevated);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    padding: 24px 32px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    gap: 24px;
+    background: var(--color-bg);
+    z-index: 100;
+  }
+
+  .menuItems a {
+    font-size: 20px;
   }
 
   .menuItems a::after {
@@ -124,6 +169,5 @@
 
   .menuOpen {
     display: flex;
-    z-index: 1;
   }
 }

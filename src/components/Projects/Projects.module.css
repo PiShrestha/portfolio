@@ -11,13 +11,19 @@
   font-family: var(--font-heading);
   font-size: 32px;
   font-weight: 600;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.3px;
   color: var(--color-text);
-  margin-bottom: 48px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-family: var(--font-body);
+  font-size: 16px;
+  color: var(--color-text-muted);
+  margin-bottom: 40px;
 }
 
 .projects {
-  margin-top: 32px;
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
@@ -28,22 +34,41 @@
 
 .toggleButton {
   display: block;
-  margin: 32px auto 0;
-  padding: 10px 28px;
-  font-size: 15px;
+  margin: 36px auto 0;
+  padding: 12px 32px;
+  font-size: 14px;
   font-weight: 600;
   font-family: var(--font-heading);
-  color: var(--color-dark);
-  background: var(--color-primary);
-  border: none;
+  color: var(--color-text);
+  background: transparent;
+  border: 1px solid var(--color-accent-muted);
   border-radius: 100px;
   cursor: pointer;
   transition: var(--transition-smooth);
-  box-shadow: 0 4px 12px rgba(212, 165, 116, 0.25);
 }
 
 .toggleButton:hover {
-  transform: translateY(-2px);
-  background: var(--color-primary-hover);
-  box-shadow: 0 6px 16px rgba(212, 165, 116, 0.35);
+  background: var(--color-accent-subtle);
+  border-color: var(--color-accent);
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 32px 5%;
+    padding-top: 40px;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+    margin-bottom: 28px;
+  }
+
+  .toggleButton {
+    padding: 10px 24px;
+    font-size: 13px;
+  }
 }

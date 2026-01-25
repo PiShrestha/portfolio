@@ -1,37 +1,84 @@
 [
   {
-    "title": "Programmable",
+    "title": "Arbitrage Betting App",
     "imageSrc": "projects/programmable.png",
-    "description": "A web app designed for aspiring Computer Science students to practice and strengthen their coding skills.",
-    "skills": ["React.js", "Firebase", "Flask", "JavaScript"],
-    "source": "https://github.com/PiShrestha/programmable"
+    "description": "Real-time odds aggregator with PyTorch risk models and React dashboard for portfolio optimization.",
+    "skills": [
+      "Python",
+      "React.js",
+      "PyTorch",
+      "OOP"
+    ],
+    "github": "https://github.com/PiShrestha/arbitrage",
+    "featured": true
   },
   {
     "title": "WahooWheels",
     "imageSrc": "projects/wahoowheels.png",
-    "description": "A platform that helps students easily share rides on campus, reducing travel costs and environmental impact.",
-    "skills": ["MapBox", "React.js", "JavaScript", "Django", "RESTful API", "Bootstrap"],
-    "source": "https://github.com/PiShrestha/wahoowheels"
-  },  
+    "description": "Student carpooling platform with Mapbox routing and JWT auth. Deployed on AWS (EC2, S3, RDS).",
+    "skills": [
+      "Django",
+      "React.js",
+      "PostgreSQL",
+      "AWS",
+      "Mapbox"
+    ],
+    "github": "https://github.com/PiShrestha/wahoowheels",
+    "featured": true
+  },
   {
     "title": "Routify",
     "imageSrc": "projects/routify.png",
-    "description": "Website to visualize your class schedule on a map to plan smarter routes across campus.",
-    "skills": ["React.js", "Django", "Mapbox", "PostgreSQL", "AWS (EC2, S3, RDS)"],
-    "source": "https://github.com/kyle-luong/routify"
+    "description": "Class schedule visualizer with smart route planning across campus using Mapbox.",
+    "skills": [
+      "React.js",
+      "Django",
+      "Mapbox",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "github": "https://github.com/kyle-luong/routify",
+    "featured": true
   },
   {
-    "title": "Currency Coverter",
+    "title": "Course Review App",
+    "imageSrc": "projects/programmable.png",
+    "description": "JavaFX CRUD app with MVC architecture. Led Agile team of 3 developers.",
+    "skills": [
+      "JavaFX",
+      "SQLite",
+      "Gradle",
+      "JUnit",
+      "Mockito"
+    ],
+    "github": "https://github.com/PiShrestha/course-review",
+    "featured": false
+  },
+  {
+    "title": "Programmable",
+    "imageSrc": "projects/programmable.png",
+    "description": "Coding practice platform for aspiring CS students to strengthen their skills.",
+    "skills": [
+      "React.js",
+      "Firebase",
+      "Flask",
+      "JavaScript"
+    ],
+    "github": "https://github.com/PiShrestha/programmable",
+    "featured": false
+  },
+  {
+    "title": "Currency Converter",
     "imageSrc": "projects/currency.png",
-    "description": "Interactive website where users can convert between currencies.",
-    "skills": ["HTML", "CSS", "JavaScript", "RESTful API"],
-    "source": "https://github.com/Jonuhthan/hoohacks2024"
-  },
-  {
-    "title": "Hangman",
-    "imageSrc": "projects/hangman.png",
-    "description": "A fun and interactive web-based game where players can guess letters to uncover hidden phrases.",
-    "skills": ["React.js", "Node.js", "RESTful API", "CSS"],
-    "source": "https://github.com/PiShrestha/hangman"
+    "description": "Interactive currency conversion tool with real-time exchange rates.",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "RESTful API"
+    ],
+    "github": "https://github.com/Jonuhthan/hoohacks2024",
+    "devpost": "https://devpost.com/software/currency-converter",
+    "featured": false
   }
 ]

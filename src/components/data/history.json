@@ -1,57 +1,38 @@
 [
     {
-        "role": "Undergraduate Intern Tech",
-        "organisation": "VeriSign",
+        "role": "Software Engineer Intern",
+        "organisation": "Verisign",
         "startDate": "May 2025",
         "endDate": "August 2025",
         "experiences": [
-            "Distributed Big Data Platform using Apache Spark and Java."
+            "Engineered data validation platform using Apache Spark to process 400M+ weekly geolocation records with real-time Grafana dashboards.",
+            "Architected Jenkins CI/CD pipeline for containerization (Docker) and configuration (Ansible) of core data workflows.",
+            "Replaced legacy Perl writer with Go MMDB writer, cutting runtime by 51% while improving maintainability.",
+            "Presented improvements and trade-offs to 100+ employees including VPs and senior leadership."
         ],
         "imageSrc": "history/verisign.png"
     },
     {
-        "role": "Technical Project Assistant",
-        "organisation": "INOVA Engineering",
-        "startDate": "January 2022",
-        "endDate": "August 2024",
-        "experiences": [
-            "Collaborated with teams to create and maintain technical documentation for complex data sets, implementing validation protocols that improved accuracy and reduced errors across 100+ projects.",
-            "Trained 2 team members on data modeling and AutoCAD, improving operational efficiency, and documented SOPs to streamline workflows and ensure collaboration."        
-        ],
-        "imageSrc": "history/inovaengineering.png"
-    },
-    {
         "role": "Software Engineering Intern",
-        "organisation": "the ROI Portal",
-        "startDate": "January 2023",
+        "organisation": "ROI Portal",
+        "startDate": "January 2024",
         "endDate": "August 2024",
         "experiences": [
-            "Supported the development of a trade signal pipeline using scikit-learn for ROI predictions, risk–reward optimization, and trade expiry recommendations, benefiting 50+ clients.",            
-            "Assisted in creating a Python-based news bot using NLP to rank market events by impact scores, streamlining trader decision-making.",
-            "Helped implement PyTest with 80%+ coverage and tuned models using Bayesian optimization, improving system reliability and reducing downtime."
+            "Built high-performance trade signal pipeline using R and scikit-learn, processing 60k+ historical trades for 50+ clients.",
+            "Developed Python news aggregation bot with TF-IDF and NER algorithms to parse 300+ daily market events, reducing manual analysis by 50%.",
+            "Implemented PyTest with 80%+ coverage and tuned models using Bayesian optimization."
         ],
         "imageSrc": "history/roi.png"
     },
     {
-        "role": "Digital Team Coordinator",
-        "organisation": "Walmart",
-        "startDate": "June 2022",
+        "role": "Technical Project Assistant",
+        "organisation": "INOVA Engineering",
+        "startDate": "June 2023",
         "endDate": "August 2023",
         "experiences": [
-            "Led scheduling and workload distribution, maintaining a 95%+ pick rate and <5 min wait times.",
-            "Managed cashiering and inventory, achieving a 98% accuracy rate and 4.7/5 customer satisfaction."
+            "Engineered Python automation script for AutoCAD coordinate tracing with error handling and anomaly detection, improving accuracy by 20% across 100+ projects.",
+            "Conducted training sessions for new hires on AutoCAD and technical workflows."
         ],
-        "imageSrc": "history/walmart.png"
-    },
-    {
-        "role": "Sales Associate",
-        "organisation": "T.J. Maxx",
-        "startDate": "October 2021",
-        "endDate": "May 2022",
-        "experiences": [
-            "Achieved 98% inventory accuracy and 4.7/5 customer satisfaction through effective cashiering and inventory management.",
-            "Signed up 3+ new credit card customers daily."
-        ],
-        "imageSrc": "history/tjmaxx.png"
+        "imageSrc": "history/inovaengineering.png"
     }
 ]
