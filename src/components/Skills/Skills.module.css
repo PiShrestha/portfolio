@@ -1,0 +1,123 @@
+@import "../../vars.css";
+
+.container {
+  padding-top: 60px;
+  color: var(--color-text);
+  scroll-margin-top: 50px;
+  margin-left: var(--container-margin);
+  margin-right: var(--container-margin);
+  margin-top: 40px;
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: var(--color-text);
+  margin-bottom: 48px;
+}
+
+.certLinkBtn {
+  display: inline-flex;
+  align-items: center;
+  color: inherit;
+  padding-left: 6px;
+  text-decoration: none;
+  opacity: 0.6;
+  transition: var(--transition-fast);
+}
+
+.certLinkBtn:hover {
+  opacity: 1;
+}
+
+.skills {
+  padding: 0;
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px 40px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  transition: var(--transition-smooth);
+}
+
+.skill:hover {
+  transform: translateY(-4px);
+}
+
+.skillImageContainer {
+  background-color: var(--color-secondary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: var(--transition-smooth);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.skillImageContainer:hover {
+  box-shadow: 0 6px 20px rgba(212, 165, 116, 0.15);
+  border-color: var(--color-accent-muted);
+}
+
+.skillImageContainer img {
+  width: 45px;
+}
+
+.skill p {
+  font-size: 14px;
+  font-family: var(--font-body);
+  font-weight: 500;
+  color: var(--color-text-muted);
+}
+
+.skillTitle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    padding-top: 40px;
+  }
+
+  .title {
+    font-size: 28px;
+    margin-bottom: 32px;
+  }
+
+  .skills {
+    width: 100%;
+    gap: 24px 28px;
+  }
+
+  .skillImageContainer {
+    width: 65px;
+    height: 65px;
+  }
+
+  .skillImageContainer img {
+    width: 38px;
+  }
+
+  .skill p {
+    font-size: 13px;
+  }
+}

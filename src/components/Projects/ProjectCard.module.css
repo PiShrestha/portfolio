@@ -1,0 +1,153 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 16px;
+  background: var(--color-bg-card);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  padding: 20px 24px;
+  width: 100%;
+  max-width: 880px;
+  transition: var(--transition-smooth);
+}
+
+.container:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
+  border-color: var(--color-accent-muted);
+}
+
+.image {
+  width: 280px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: var(--transition-smooth);
+}
+
+.image:hover {
+  transform: scale(1.02);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: var(--font-heading);
+  color: var(--color-text);
+  letter-spacing: 0.3px;
+  margin-bottom: 12px;
+  transition: var(--transition-fast);
+}
+
+.title:hover {
+  color: var(--color-accent);
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 16px;
+  list-style: none;
+  padding: 0;
+}
+
+.skill {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--color-text-muted);
+  margin: 0;
+  padding: 0;
+}
+
+.skill:not(:last-child)::after {
+  content: "•";
+  margin-left: 8px;
+  opacity: 0.4;
+}
+
+.description {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: var(--font-body);
+  color: var(--color-text-muted);
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.links {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: auto;
+}
+
+.links img {
+  width: 24px;
+  opacity: 0.8;
+  transition: var(--transition-fast);
+}
+
+.links img:hover {
+  opacity: 1;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-dark);
+  font-size: 14px;
+  font-weight: 600;
+  font-family: var(--font-heading);
+  border-radius: 100px;
+  background: var(--color-primary);
+  padding: 6px 16px;
+  transition: var(--transition-smooth);
+}
+
+.link:hover {
+  transform: translateY(-2px);
+  background: var(--color-primary-hover);
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    padding: 16px;
+  }
+
+  .image {
+    width: 100%;
+    max-width: 360px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .link {
+    font-size: 13px;
+    padding: 5px 14px;
+  }
+
+  .links img {
+    width: 22px;
+  }
+}

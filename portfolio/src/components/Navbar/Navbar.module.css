@@ -1,4 +1,3 @@
-
 @import "../../vars.css";
 
 .navbar {
@@ -19,30 +18,24 @@
 }
 
 .title {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 50px;
   font-weight: 800;
   letter-spacing: 1.5px;
   text-align: center;
-  color: #E6E6F0;
+  color: #e6e6f0;
   margin-bottom: 40px;
-  border-bottom: 3px solid #4FD1C5;
+  border-bottom: 3px solid #4fd1c5;
   display: inline-block;
   padding-bottom: 10px;
 }
 
-.menuBtn {
-  display: none;
-}
-
-.menu {
-  display: flex;
-}
-
-.menuItems {
-  display: flex;
-  gap: 47px;
-  list-style: none;
+.externalIcon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 12px;
 }
 
 .menuItems a {
@@ -52,14 +45,14 @@
 }
 
 .menuItems a {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 800;
   letter-spacing: 1.2px;
   text-align: center;
-  color: #E6E6F0;
+  color: #e6e6f0;
   margin-bottom: 40px;
-  border-bottom: 3px solid #4FD1C5;
+  border-bottom: 3px solid #4fd1c5;
   display: inline-block;
   padding-bottom: 5px;
 }

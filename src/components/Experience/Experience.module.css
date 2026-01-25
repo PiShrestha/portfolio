@@ -1,0 +1,235 @@
+@import "../../vars.css";
+
+.container {
+  margin-top: 60px;
+  color: var(--color-text);
+  scroll-margin-top: 50px;
+  padding: 60px var(--container-margin);
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: var(--color-text);
+  margin-bottom: 48px;
+}
+
+.timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.historyImageMobile {
+  display: none;
+}
+
+.timelineItem {
+  width: calc(50% - 50px);
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg-card);
+  border-radius: 16px;
+  padding: 24px 28px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  position: relative;
+  transition: var(--transition-smooth);
+  margin-bottom: 0;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(to top, var(--color-bg) 0%, var(--color-accent-muted) 50%, var(--color-bg) 100%);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 0;
+  border-radius: 2px;
+}
+
+.timelineItem.left {
+  align-self: flex-start;
+  margin-right: auto;
+}
+
+.timelineItem.right {
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.timelineItem:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  border-color: var(--color-accent-muted);
+}
+
+.historyContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.historyHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
+.historyHeader h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-text);
+  margin: 0;
+  font-family: var(--font-heading);
+}
+
+.historyHeader .position {
+  font-weight: 600;
+}
+
+.historyHeader .company {
+  font-weight: 400;
+  font-style: italic;
+  color: var(--color-accent);
+}
+
+.historyImageContainer {
+  top: 16px;
+  background-color: var(--color-secondary);
+  border-radius: 16px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.timelineItem.left .historyImageContainer {
+  right: -80px;
+}
+
+.timelineItem.right .historyImageContainer {
+  left: -80px;
+}
+
+.historyImage {
+  width: 45px;
+  border-radius: 8px;
+  position: absolute;
+  z-index: 1;
+}
+
+.date {
+  font-size: 14px;
+  color: var(--color-text-muted);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.dateIcon {
+  width: 16px;
+  height: 16px;
+  opacity: 0.7;
+}
+
+.atSymbol {
+  font-weight: 400;
+  font-style: normal;
+}
+
+.historyContent p {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--color-text-muted);
+  margin: 0 0 8px 0;
+}
+
+.historyContent ul {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 15px;
+  color: var(--color-text-light);
+}
+
+.historyContent ul li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 830px) {
+
+  .timelineItem,
+  .timelineItem.left,
+  .timelineItem.right {
+    width: 100%;
+    margin: 0;
+  }
+
+  .timeline {
+    position: relative;
+    gap: 32px;
+    padding: 10px 5%;
+  }
+
+  .timeline::before {
+    width: 2px;
+    left: 0;
+    background: linear-gradient(to top, var(--color-bg), var(--color-accent-muted));
+  }
+
+  .timelineItem.left .historyImageContainer {
+    left: -75px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .historyImageMobile {
+    display: none;
+  }
+}
+
+@media (max-width: 666px) {
+  .container {
+    margin-top: 40px;
+    padding: 40px 5%;
+  }
+
+  .historyContent {
+    display: flex;
+    gap: 0;
+  }
+
+  .historyImageMobile {
+    display: block;
+    width: 50px;
+    margin-right: 12px;
+    border-radius: 8px;
+  }
+
+  .historyHeader {
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .historyImageContainer {
+    display: none;
+  }
+
+  .timeline::before {
+    display: none;
+  }
+}
