@@ -73,7 +73,12 @@
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+[data-theme="light"] .link a {
+  background: var(--color-light);
+  border-color: var(--color-light);
+}
+
+@media screen and (max-width: 600px) {z
   .container {
     flex-direction: column;
     gap: 20px;

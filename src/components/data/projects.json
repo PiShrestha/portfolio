@@ -17,7 +17,7 @@
   {
     "title": "deltabet",
     "imageSrc": "projects/banner.png",
-    "description": "Real-time odds aggregator with PyTorch risk models and React dashboard for portfolio optimization.",
+    "description": "Real-time odds aggregator. Fetches and normalizes betting odds from multiple sportsbooks, providing users with up-to-date information for informed betting decisions.",
     "skills": [
       "SpringBoot",
       "Java",
@@ -44,7 +44,7 @@
   {
     "title": "Course Review App",
     "imageSrc": "projects/coursereviewapp.png",
-    "description": "JavaFX CRUD app with MVC architecture. Led Agile team of 3 developers.",
+    "description": "JavaFX CRUD app with MVC architecture. Features course reviews, ratings, and user authentication. Data stored in SQLite.",
     "skills": [
       "JavaFX",
       "SQLite",
@@ -69,5 +69,19 @@
     "github": "https://github.com/kyle-luong/classmate",
     "doc": "https://drive.google.com/file/d/1i3d5ctCMLjYIY954jFrCYcs2kC0zqXDI/view?usp=sharing",
     "featured": true
+  },
+  {
+    "title": "random surfaces",
+    "imageSrc": "projects/random_surfaces.png",
+    "description": " Random Surfaces shuffles grid paths with tiny flips to create perfectly random 3D shapes. ",
+    "skills": [
+      "Flask",
+      "Next.js",
+      "Vercel"
+    ],
+    "github": "https://github.com/PiShrestha/random_surfaces",
+    "doc": "https://docs.google.com/document/d/15TB4D1bVGRy5hvFd5lqskSQEC_Taa4E2oKRAW9sqPTo/edit?usp=sharing",
+    "live": "https://random-surfaces.vercel.app/",
+    "featured": false
   }
 ]

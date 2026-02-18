@@ -21,7 +21,7 @@ export const About = () => {
       <div className={styles.highlights}>
         <div className={styles.highlight}>
           <span className={styles.highlightLabel}>Focus Areas</span>
-          <span className={styles.highlightValue}>System Design · Data Engineering · Fintech</span>
+          <span className={styles.highlightValue}>System Design · Math · Fintech</span>
         </div>
       </div>
     </section>

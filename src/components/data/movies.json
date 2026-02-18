@@ -16,5 +16,11 @@
         "poster": "movies/shutterisland.png",
         "reason": "insane cliffhanger ending",
         "rating": 9
+    },
+    {
+        "title": "Friends",
+        "poster": "movies/friends.png",
+        "reason": "lol",
+        "rating": 9
     }
 ]
