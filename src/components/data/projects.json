@@ -73,7 +73,7 @@
   {
     "title": "random surfaces",
     "imageSrc": "projects/random_surfaces.png",
-    "description": " Random Surfaces shuffles grid paths with tiny flips to create perfectly random 3D shapes. ",
+    "description": "Random Surfaces shuffles grid paths with tiny flips to create perfectly random 3D shapes. ",
     "skills": [
       "Flask",
       "Next.js",
@@ -82,6 +82,22 @@
     "github": "https://github.com/PiShrestha/random_surfaces",
     "doc": "https://docs.google.com/document/d/15TB4D1bVGRy5hvFd5lqskSQEC_Taa4E2oKRAW9sqPTo/edit?usp=sharing",
     "live": "https://random-surfaces.vercel.app/",
+    "featured": false
+  },
+  {
+    "title": "LyricLab",
+    "imageSrc": "projects/lyriclab.png",
+    "description": "Platform to choose your favorite songs, remix their lyrics to your liking, and start a virtual party room to start singing with friends!",
+    "skills": [
+      "Next.js",
+      "Gemini API",
+      "ElevenLabs API",
+      "Supabase",
+      "Ngrok",
+      "Replicate"
+    ],
+    "github": "https://github.com/kyle-luong/your-karaoke",
+    "devpost": "https://devpost.com/software/your-kareoke",
     "featured": false
   }
 ]
