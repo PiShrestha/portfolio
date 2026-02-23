@@ -1,6 +1,24 @@
 [
     {
         "role": "Software Engineer Intern",
+        "organisation": "ATPCO",
+        "startDate": "March 2026",
+        "endDate": "Present",
+        "experiences": [
+            "Automating product catalog workflows at ATPCO using Python within the AWS ecosystem and MongoDB."
+        ],
+        "imageSrc": "history/atpco.png"
+    },{
+        "role": "Research Assistant",
+        "organisation": "UVA Biocomplexity Institute",
+        "startDate": "Feb 2026",
+        "endDate": "Present",
+        "experiences": [
+            "Working on agentic AI models to study and predict AI's impact on the workforce."
+        ],
+        "imageSrc": "history/bii.png"
+    },{
+        "role": "Software Engineer Intern",
         "organisation": "Verisign",
         "startDate": "May 2025",
         "endDate": "August 2025",
