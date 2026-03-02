@@ -3,19 +3,12 @@ import { InterestingFinds } from "../components/InterestingFinds/InterestingFind
 import { Movies } from "../components/Movies/Movies";
 
 export const MiscPage = () => {
-    return (
-        <div className={styles.container}>
-            <header className={styles.header}>
-                <h1 className={styles.title}>Miscellaneous</h1>
-                <p className={styles.subtitle}>
-                    Ideas, interests, and things that inspire me.
-                </p>
-            </header>
+  return (
+    <div className={styles.container}>
+      <InterestingFinds />
+      <Movies />
 
-            <InterestingFinds />
-            <Movies />
-
-            {/* Future sections: Hobbies, Books, etc. */}
-        </div>
-    );
+      {/* Future sections: Hobbies, Books, etc. */}
+    </div>
+  );
 };

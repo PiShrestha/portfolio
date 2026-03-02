@@ -1,26 +1,34 @@
 [
-    {
-        "title": "Interstellar",
-        "poster": "movies/interstellar.png",
-        "reason": "nolan's masterpiece",
-        "rating": 10
-    },
-    {
-        "title": "The Social Network",
-        "poster": "movies/socialnetwork.png",
-        "reason": "really good startup storytelling.",
-        "rating": 9
-    },
-    {
-        "title": "Shutter Island",
-        "poster": "movies/shutterisland.png",
-        "reason": "insane cliffhanger ending",
-        "rating": 9
-    },
-    {
-        "title": "Friends",
-        "poster": "movies/friends.png",
-        "reason": "lol",
-        "rating": 9
-    }
+  {
+    "title": "Interstellar",
+    "poster": "movies/interstellar.png",
+    "reason": "nolan's masterpiece",
+    "rating": 10,
+    "year": 2014,
+    "duration": "2h 49m"
+  },
+  {
+    "title": "The Social Network",
+    "poster": "movies/socialnetwork.png",
+    "reason": "really good startup storytelling.",
+    "rating": 9,
+    "year": 2010,
+    "duration": "2h 0m"
+  },
+  {
+    "title": "Shutter Island",
+    "poster": "movies/shutterisland.png",
+    "reason": "insane cliffhanger ending",
+    "rating": 9,
+    "year": 2010,
+    "duration": "2h 18m"
+  },
+  {
+    "title": "Friends",
+    "poster": "movies/friends.png",
+    "reason": "lol",
+    "rating": 9,
+    "year": 1994,
+    "duration": "22m"
+  }
 ]

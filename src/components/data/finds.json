@@ -1,23 +1,21 @@
 [
-    {
-        "title": "Newton's Method",
-        "image": "finds/newtons.png",
-        "description": "A gentle introduction to root finding and its applications in optimization.",
-        "date": "2024-01-15",
-        "link": ""
-    },
-    {
-        "title": "All Computable Functions are Continuous",
-        "image": "finds/computable.png",
-        "description": "When the continuous and discrete cross, fireworks appear.",
-        "date": "2024-02-20",
-        "link": ""
-    },
-    {
-        "title": "Optimal Polynomial Approximation",
-        "image": "finds/polynomial.png",
-        "description": "An introduction to linear algebra and least squares on functions.",
-        "date": "2024-03-10",
-        "link": ""
+  {
+    "title": "Coprimality of Random Integers",
+    "latex": "P(\\gcd(a,b)=1) = \\frac{6}{\\pi^2}",
+    "description": "The probability that two randomly chosen integers are coprime is $\\frac{6}{\\pi^2}$.",
+    "citation": {
+      "text": "Borwein, Bailey & Girgensohn (2019)",
+      "url": "https://projecteuclid.org/journalArticle/Download?urlId=10.1214%2F19-STS737"
     }
+  },
+  {
+    "title": "Imaginary Exponentiation Identity",
+    "latex": "\\left(\\sqrt[\\pi]{i^{\\,i}}\\right)^{-2} = e",
+    "description": "Since $i^{\\,i} = e^{-\\pi/2}$, raising to the power $\\frac{1}{\\pi}$ gives $e^{-1/2}$, and inverting squared yields $e$."
+  },
+  {
+    "title": "Infinite Nested Radical",
+    "latex": "\\sqrt[x]{x}^{\\,\\sqrt[x]{x}^{\\,\\sqrt[x]{x}^{\\,\\cdots}}} = x",
+    "description": "An infinite power tower of $\\sqrt[x]{x}$ converges to $x$."
+  }
 ]
