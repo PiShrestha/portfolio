@@ -17,5 +17,10 @@
     "title": "Infinite Nested Radical",
     "latex": "\\sqrt[x]{x}^{\\,\\sqrt[x]{x}^{\\,\\sqrt[x]{x}^{\\,\\cdots}}} = x",
     "description": "An infinite power tower of $\\sqrt[x]{x}$ converges to $x$."
+  },
+  {
+    "title": "Digital Root Congruence",
+    "latex": "n \\equiv \\sum_{i} d_i \\pmod{9}",
+    "description": "For any integer $n$, the number itself is congruent to the sum of its digits modulo 9."
   }
 ]
