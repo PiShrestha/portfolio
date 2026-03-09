@@ -22,5 +22,23 @@
     "title": "Digital Root Congruence",
     "latex": "n \\equiv \\sum_{i} d_i \\pmod{9}",
     "description": "For any integer $n$, the number itself is congruent to the sum of its digits modulo 9."
+  },
+  {
+    "title": "Intercollegiate Math Tournament 2026 Archive",
+    "latex": "",
+    "description": "A list of problems to challenge yourself for math competitions.",
+    "citation": {
+      "text": "IMT Archives (2026)",
+      "url": "https://intercollegiatemathtournament.org/archives/2026/"
+    }
+  },
+  {
+    "title": "Option Pricing Explained | No Arbitrage + Financial Mathematics from a Quant",
+    "latex": "C - P = S_0 - K e^{-rT}",
+    "description": "In this lecture, Susquehanna educator Doug Costa (former head of quant research and former University of Virginia math professor) explains no arbitrage, why arbitrage-free conditions lead to pricing formulas, and how this principle underpins derivatives pricing and models like Black-Scholes.",
+    "citation": {
+      "text": "Susquehanna YouTube Lecture",
+      "url": "https://www.youtube.com/watch?v=u_eEW7N1xjE"
+    }
   }
 ]
