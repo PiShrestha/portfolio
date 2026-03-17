@@ -5,7 +5,8 @@
         "startDate": "March 2026",
         "endDate": "Present",
         "experiences": [
-            "Automating product catalog workflows at ATPCO using Python within the AWS ecosystem and MongoDB."
+            "Automating product catalog workflows at ATPCO using Python within the AWS ecosystem and MongoDB.",
+            "Built API-first service integrations in Python, utilizing Pact and Schemathesis for automated contract testing."
         ],
         "imageSrc": "history/atpco.png"
     },{
@@ -36,9 +37,7 @@
         "startDate": "January 2024",
         "endDate": "August 2024",
         "experiences": [
-            "Built high-performance trade signal pipeline using R and scikit-learn, processing 60k+ historical trades for 50+ clients.",
-            "Developed Python news aggregation bot with TF-IDF and NER algorithms to parse 300+ daily market events, reducing manual analysis by 50%.",
-            "Implemented PyTest with 80%+ coverage and tuned models using Bayesian optimization."
+            "Served 50+ clients by engineering an NLP-driven news aggregator and expanding on predictive trade pipeline using Python."
         ],
         "imageSrc": "history/roi.png"
     },
@@ -48,8 +47,7 @@
         "startDate": "June 2023",
         "endDate": "August 2023",
         "experiences": [
-            "Engineered Python automation script for AutoCAD coordinate tracing with error handling and anomaly detection, improving accuracy by 20% across 100+ projects.",
-            "Conducted training sessions for new hires on AutoCAD and technical workflows."
+            "Python automation for AutoCAD mapping and total station 3D survey data processing."
         ],
         "imageSrc": "history/inovaengineering.png"
     }
