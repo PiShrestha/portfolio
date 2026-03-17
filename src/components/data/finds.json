@@ -44,7 +44,7 @@
   {
     "title": "Rejection Sampling for Random Generation",
     "latex": "\\text{Let } M = \\left\\lfloor \\frac{X^k}{Y} \\right\\rfloor Y, \\quad P(n \\mid n \\le M) = \\frac{P(n \\cap (n \\le M))}{P(n \\le M)} = \\frac{\\frac{1}{X^k}}{\\frac{M}{X^k}} = \\frac{1}{M}, \\quad \\text{then return } (n - 1) \\bmod Y + 1",
-    "description": "To simulate a uniform random variable from 1 to Y using randX(), generate a uniform integer n from 1 to X^k. Accept n only if it is less than or equal to the largest multiple of Y within X^k. By conditioning on the event n \\le M, the distribution becomes uniform over {1, ..., M}, since P(n | n \\le M) = (1/X^k) / (M/X^k) = 1/M. This ensures equal partitioning into Y outcomes and guarantees uniformity via rejection sampling.",
+    "description": "To simulate a uniform random variable from $1$ to $Y$ using $\\text{randX()}$, generate a uniform integer $n$ from $1$ to $X^k$. Accept $n$ only if it is less than or equal to the largest multiple of $Y$ within $X^k$. By conditioning on the event $n \\le M$, the distribution becomes uniform over $\\{1, \\ldots, M\\}$, since $P(n \\mid n \\le M) = (1/X^k) / (M/X^k) = 1/M$. This ensures equal partitioning into $Y$ outcomes and guarantees uniformity via rejection sampling.",
     "citation": {
       "text": "Leetcode 470",
       "url": "https://leetcode.com/problems/implement-rand10-using-rand7/description/"
