@@ -49,5 +49,14 @@
       "text": "Leetcode 470",
       "url": "https://leetcode.com/problems/implement-rand10-using-rand7/description/"
     }
+  },
+  {
+    "title": "Comparing Exponential Powers: e^\\pi and \\pi^e",
+    "latex": "\\boxed{e^{\\pi} > \\pi^e}",
+    "description": "Let $f(x) = x^{1/x}$. Taking logs gives $\\ln f(x) = (\\ln x)/x$, so $f'(x)$ has the sign of $1 - \\ln x$. Hence $f$ is maximized at $x = e$. Since $\\pi > e$, we get $\\pi^{1/\\pi} < e^{1/e}$. Raising both sides to $\\pi e$ yields $\\pi^e < e^{\\pi}$.",
+    "citation": {
+      "text": "Calculus Proof",
+      "url": "https://en.wikipedia.org/wiki/Gelfond%27s_constant"
+    }
   }
 ]
